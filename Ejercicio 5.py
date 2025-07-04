@@ -11,7 +11,7 @@ for i in range(len(matriz)):
     for j in range(len(matriz[i])):
         if matriz[i][j] > numero_max:
             numero_max = matriz[i][j]
-            fial = j
+            fila = j
 
 print(f"El número máximo en la matriz es: {numero_max}")
 print(f"Se encuentra en la columna: {fila}")
