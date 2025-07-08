@@ -8,7 +8,7 @@ numero_max = -1
 fila = 0 
 columna = 0 
 for i in range(len(matriz)):
-    for j in range(len(matriz[i])): # <-- ¡Aquí está el cambio!
+    for j in range(len(matriz[i])):
         if matriz[i][j] > numero_max:
             numero_max = matriz[i][j]
             columna = j + 1
