@@ -12,8 +12,8 @@ numeroElegido = int(input("Elija una fila: "))
 filaElegida = numeroElegido - 1
 if 0 <= filaElegida < len(matriz):
     resultado = 0
-    for valor in matriz[filaElegida]:
-        resultado = resultado + valor
+    for i in matriz[filaElegida]:
+        resultado = resultado + i
     print(f"La suma de los elementos de la fila {filaElegida + 1} da como resultado: {resultado}")
 else:
     print("La fila seleccionada no existe")
