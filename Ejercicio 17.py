@@ -40,6 +40,6 @@ def consigna(m1, m2):
 matrizProducto = consigna(matriz1, matriz2)
 
 if matrizProducto is not None:
-    print("\nEl producto de las matrices es:")
+    print("El producto de las matrices es:")
     for fila in matrizProducto:
         print(fila)
