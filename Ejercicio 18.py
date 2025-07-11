@@ -23,6 +23,6 @@ def consigna(m):
 
 transpuesta = consigna(matriz)
 
-print("\nMatriz transpuesta:")
+print("Matriz transpuesta:")
 for fila in transpuesta:
     print(fila)
